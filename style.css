@@ -113,3 +113,16 @@ form button:focus {
   transform: translateY(8rem) rotateZ(20deg);
   opacity: 0;
 }
+
+@media only screen and (max-width: 431px) {
+  .responsive{
+    text-align: center;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .form{
+    margin-top: 40px;
+  }
+}
